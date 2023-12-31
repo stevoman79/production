@@ -36,16 +36,7 @@ formatted_datetimes = [data[0] for data in program_data]
 events = [data[1] for data in program_data]
 
 # Print the formatted datetimes
-"""
-print("Formatted Datetimes:")
-for formatted_datetime in formatted_datetimes:
-    print(formatted_datetime)
 
-# Print the events
-print("Events:")
-for event in events:
-    print(event)
-"""
 print("\n")
 print(program_data[1:])
 print("\n")
@@ -84,7 +75,7 @@ def schedule_messages():
 
     # Define the dates and messages to be sent
     schedule_data = program_data[1:]
-        
+        # test message scheduling
         #('2023-12-27 18:31:00', "Happy New Year!"),
         #('2023-12-27 18:32:00', "Happy Valentine's Day!"),
         #('2023-12-27 18:33:00', "Happy St. Patrick's Day!")
@@ -98,6 +89,6 @@ def schedule_messages():
 
 
 if __name__ == "__main__":
-    myapikey = "ae31ae9ebfmsh5862ad5122f501dp18bd02jsn040cc6b2a095"
+    myapikey = "xxx"
     schedule_messages()
 
